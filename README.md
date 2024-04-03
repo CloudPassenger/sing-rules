@@ -9,6 +9,6 @@ source of the rules comes from: [blackmatrix7/ios_rule_script](https://github.co
 ## Thanks to
 
 - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
-- [sing-srs-converter](https://github.com/PuerNya/sing-srs-converter)
+- [PuerNya/sing-srs-converter](https://github.com/PuerNya/sing-srs-converter)
 
 
