@@ -20,6 +20,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Checkout last rules
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           ref: ruleset
@@ -46,12 +47,12 @@ jobs:
       - name: Git push assets to "ruleset" branch
         run: |
           cd dist || exit 1
-          if [ ! -d .git ]; then
-            git init
-            git checkout -b ruleset
-          fi
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          if [ ! -d .git ]; then
+            git init
+            git branch -m ruleset
+          fi
           git add -A
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"

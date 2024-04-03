@@ -24,6 +24,7 @@ find "$source_dir" -type f -name '*.yaml' ! -name '*_No_Resolve.yaml' ! -name '*
     # 构造输出文件的路径
     output_file_path="${output_dir}${file_path#$source_dir}"
     output_file_dir=$(dirname "$output_file_path")
+    output_file_path_without_suffix="${output_file_path%.yaml}"
 
     # 检查输出文件的目录是否存在，如果不存在则创建
     if [ ! -d "$output_file_dir" ]; then
@@ -32,7 +33,7 @@ find "$source_dir" -type f -name '*.yaml' ! -name '*_No_Resolve.yaml' ! -name '*
 
     # 执行转换命令
     echo "🔨 Converting: $file_path"
-    ./sing-srs-converter "$file_path" -m -o "$output_file_path"
+    ./sing-srs-converter "$file_path" -m -o "$output_file_path_without_suffix"
 done
 
 echo "✨ Conversion completed!"
