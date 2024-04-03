@@ -1,0 +1,55 @@
+name: Build Sing-box rulesets
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "LICENSE"
+      - "README.md"
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Checkout rulesets source
+        uses: actions/checkout@v4
+        with:
+          repository: blackmatrix7/ios_rule_script
+          ref: master
+          path: source
+          fetch-depth: 1
+      - name: Download Latest sing-srs-converter
+        run: |
+          github_api="https://api.github.com/repos/PuerNya/sing-srs-converter/releases/latest"
+          download_url="$(curl -s ${github_api} | grep "browser_download_url" | grep -oE "https:\/\/.*\/sing-srs-converter.*-linux-x86_64" | head -n 1)"
+          curl -L -o sing-srs-converter ${download_url}
+          chmod +x sing-srs-converter
+      - name: Build rulesets
+        run: |
+          mkdir -p dist
+          chmod +x bm7_converter.sh
+          ./bm7_converter.sh ./source/rule/Clash ./dist
+      - name: Git push assets to "ruleset" branch
+        run: |
+          cd dist || exit 1
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git checkout -b ruleset
+          git add -A
+          git commit -m "⏲️ Sync ruleset $(TZ='UTC' date "+@ UTC %Y%m%d-%H%M%S")"
+          git remote add ruleset "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u ruleset ruleset
+      - name: Purge jsdelivr CDN
+        run: |
+          cd publish || exit 1
+          for file in $(ls); do
+            curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@ruleset/${file}"
+          done
