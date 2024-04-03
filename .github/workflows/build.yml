@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Checkout rulesets source
+      - name: Checkout rules source
         uses: actions/checkout@v4
         with:
           repository: blackmatrix7/ios_rule_script
@@ -40,6 +40,7 @@ jobs:
       - name: Git push assets to "ruleset" branch
         run: |
           cd dist || exit 1
+          git init
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git checkout -b ruleset
@@ -49,7 +50,7 @@ jobs:
           git push -f -u ruleset ruleset
       - name: Purge jsdelivr CDN
         run: |
-          cd publish || exit 1
+          cd dist || exit 1
           for file in $(ls); do
             curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@ruleset/${file}"
           done
