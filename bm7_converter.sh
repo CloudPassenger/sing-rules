@@ -70,7 +70,7 @@ done
 echo "📝 Formatting: README.md"
 output_root_readme="$output_dir/README.md"
 if [ -f "$output_root_readme" ]; then
-    sed -i 's|https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/|https://github.com/CloudPassenger/sing-rules/tree/ruleset/|g' "$output_root_readme"
+    sed -i 's|https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/|https://github.com/CloudPassenger/sing-rules/tree/ruleset/|g' "$output_root_readme"
 fi
 
 echo "🎉 All files copied!"
