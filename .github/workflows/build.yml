@@ -53,7 +53,7 @@ jobs:
             git init
             git branch -m ruleset
           fi
-          git add -A
+          git add .
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
