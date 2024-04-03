@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "c4assets.com",
+        "channel4.com"
+      ],
+      "domain_suffix": [
+        ".c4assets.com",
+        ".channel4.com"
+      ]
+    }
+  ]
+}

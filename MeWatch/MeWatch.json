@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "mewatch.sg",
+      "domain_suffix": ".mewatch.sg"
+    }
+  ]
+}

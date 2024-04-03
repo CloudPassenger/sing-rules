@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "fmfmobile.icloud.com",
+        "fmipmobile.icloud.com",
+        "statici.icloud.com"
+      ]
+    }
+  ]
+}

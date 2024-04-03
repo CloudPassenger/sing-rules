@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "bilibili.tv",
+      "domain_suffix": ".bilibili.tv"
+    },
+    {
+      "process_name": "com.bstar.intl"
+    }
+  ]
+}

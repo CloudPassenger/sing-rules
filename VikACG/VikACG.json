@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "picjs.xyz",
+        "vikacg.com"
+      ],
+      "domain_suffix": [
+        ".picjs.xyz",
+        ".vikacg.com"
+      ]
+    }
+  ]
+}

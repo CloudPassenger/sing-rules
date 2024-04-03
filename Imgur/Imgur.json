@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "imgur.com",
+        "imgurinc.com"
+      ],
+      "domain_suffix": [
+        ".imgur.com",
+        ".imgurinc.com"
+      ]
+    }
+  ]
+}

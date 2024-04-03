@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "huya.com",
+        "huyagame.cn",
+        "peiwanlu.com",
+        "snapplay.com"
+      ],
+      "domain_suffix": [
+        ".huya.com",
+        ".huyagame.cn",
+        ".peiwanlu.com",
+        ".snapplay.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "americasvoice.news",
+      "domain_suffix": ".americasvoice.news"
+    }
+  ]
+}

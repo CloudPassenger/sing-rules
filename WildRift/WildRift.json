@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "pvp.net",
+        "riotcdn.net",
+        "riotgames.com"
+      ],
+      "domain_suffix": [
+        ".pvp.net",
+        ".riotcdn.net",
+        ".riotgames.com"
+      ]
+    }
+  ]
+}
