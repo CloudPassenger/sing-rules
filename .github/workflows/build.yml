@@ -19,6 +19,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Checkout last rules
+        uses: actions/checkout@v4
+        with:
+          ref: ruleset
+          path: dist
+          fetch-depth: 0
       - name: Checkout rules source
         uses: actions/checkout@v4
         with:
@@ -40,17 +46,23 @@ jobs:
       - name: Git push assets to "ruleset" branch
         run: |
           cd dist || exit 1
-          git init
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git checkout -b ruleset
+          if [ ! -d .git ]; then
+            git init
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git checkout -b ruleset
+          fi
           git add -A
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
           git commit -m "⏲️ Sync ruleset $(TZ='UTC' date "+@ UTC %Y%m%d-%H%M%S")"
           git remote add ruleset "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -f -u ruleset ruleset
-      - name: Purge jsdelivr CDN
-        run: |
-          cd dist || exit 1
-          for file in $(ls); do
-            curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@ruleset/${file}"
-          done
+          git push -u ruleset ruleset
+      # - name: Purge jsdelivr CDN
+      #   run: |
+      #     cd dist || exit 1
+      #     for file in $(ls); do
+      #       curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@ruleset/${file}"
+      #     done
