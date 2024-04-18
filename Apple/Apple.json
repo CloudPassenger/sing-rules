@@ -26,16 +26,6 @@
     },
     {
       "process_name": [
-        "/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService",
-        "CoreLocationAgent",
-        "WeatherWidget",
-        "apsd",
-        "com.apple.Maps",
-        "findmydevice-user-agent",
-        "fmfd",
-        "mapspushd",
-        "netbiosd",
-        "trustd",
         "com.apple.geod",
         "Music",
         "LookupViewService",
