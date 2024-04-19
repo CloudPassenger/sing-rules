@@ -987,8 +987,6 @@
         "tiktok.us",
         "tiktokcdn.com",
         "tiktokv.com",
-        "tiktokv.us",
-        "tiktokw.com",
         "timestalks.com",
         "tospotify.com",
         "ttvnw.net",
@@ -2246,8 +2244,6 @@
         ".tiktok.us",
         ".tiktokcdn.com",
         ".tiktokv.com",
-        ".tiktokv.us",
-        ".tiktokw.com",
         ".timestalks.com",
         ".tospotify.com",
         ".ttvnw.net",
@@ -3504,21 +3500,9 @@
     },
     {
       "process_name": [
-        "com.amazon.avod.thirdpartyclient",
-        "com.bstar.intl",
-        "com.hktve.viutv",
-        "com.hulu.plus",
-        "com.linecorp.linetv",
-        "com.netflix.mediaclient",
-        "com.tencent.ibg.joox",
-        "com.twgood.android",
         "com.viu.pad",
         "com.viu.phone",
-        "com.vuclip.viu",
-        "com.wbd.stream",
-        "music",
-        "tv",
-        "tv.twitch.android.app"
+        "com.vuclip.viu"
       ]
     }
   ]

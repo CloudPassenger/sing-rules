@@ -26,6 +26,15 @@
     },
     {
       "process_name": [
+        "CoreLocationAgent",
+        "WeatherWidget",
+        "apsd",
+        "com.apple.Maps",
+        "findmydevice-user-agent",
+        "fmfd",
+        "mapspushd",
+        "netbiosd",
+        "trustd",
         "com.apple.geod",
         "Music",
         "LookupViewService",
