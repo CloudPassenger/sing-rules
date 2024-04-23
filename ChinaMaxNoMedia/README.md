@@ -8,7 +8,7 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-22 02:14:08
+最后更新时间：2024-04-23 02:13:28
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -17,9 +17,9 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-KEYWORD | 11  | 
 | DOMAIN-SUFFIX | 76172  | 
 | IP-CIDR | 8105  | 
-| IP-CIDR6 | 4217  | 
+| IP-CIDR6 | 4224  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 88965  | 
+| TOTAL | 88972  | 
 
 
 ## 子规则/排除规则
