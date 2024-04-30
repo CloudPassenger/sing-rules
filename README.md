@@ -4,7 +4,7 @@
 |📵Advertising|  |  |  |  |
 | ---- | ---- | ---- | ---- | ---- |
 |[去广告精简版](https://github.com/CloudPassenger/sing-rules/tree/ruleset/AdvertisingLite) |[去广告](https://github.com/CloudPassenger/sing-rules/tree/ruleset/Advertising) |[去广告测试版](https://github.com/CloudPassenger/sing-rules/tree/ruleset/AdvertisingTest) |[直连](https://github.com/CloudPassenger/sing-rules/tree/ruleset/Direct) |[知乎广告拦截](https://github.com/CloudPassenger/sing-rules/tree/ruleset/ZhihuAds) ||||
-|[AdvertisingMiTV](https://github.com/CloudPassenger/sing-rules/tree/ruleset/AdvertisingMiTV) |||
+|[小米电视去广告](https://github.com/CloudPassenger/sing-rules/tree/ruleset/AdvertisingMiTV) |||
 
 
 |🌏Global|  |  |  |  |

@@ -9,10 +9,12 @@
         "bnetproduct-a.akamaihd.net",
         "cdn.blz-contentstack.com",
         "battle.net",
+        "battlenet.com.cn",
         "blizzard.com"
       ],
       "domain_suffix": [
         ".battle.net",
+        ".battlenet.com.cn",
         ".blizzard.com"
       ]
     }
