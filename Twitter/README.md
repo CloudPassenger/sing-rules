@@ -8,7 +8,7 @@ Twitter规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:34:29
+最后更新时间：2024-06-02 02:10:50
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -32,7 +32,6 @@ Twitter规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Twitter.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Twitter.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Twitter.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Twitter.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Twitter.yaml
 

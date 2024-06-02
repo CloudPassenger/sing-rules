@@ -8,7 +8,7 @@ GlobalScholar规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:37:05
+最后更新时间：2024-06-02 02:12:45
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -31,7 +31,6 @@ GlobalScholar规则由《RULE GENERATOR 规则生成器》自动生成。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Scholar.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Scholar.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Scholar.list
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scholar.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml

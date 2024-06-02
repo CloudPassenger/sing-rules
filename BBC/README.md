@@ -8,7 +8,7 @@ BBC规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:34:30
+最后更新时间：2024-06-02 02:10:51
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -30,7 +30,6 @@ BBC规则由《RULE GENERATOR 规则生成器》自动生成。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BBC.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/BBC.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/BBC-iPlayer.list
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。

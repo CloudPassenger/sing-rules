@@ -8,7 +8,7 @@ Niconico规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-04-29 13:34:30
+最后更新时间：2024-06-02 02:10:51
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,7 +28,6 @@ Niconico规则由《RULE GENERATOR 规则生成器》自动生成。
 
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Niconico.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Niconico.list
-- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/niconico.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Niconico.yaml
 
 
