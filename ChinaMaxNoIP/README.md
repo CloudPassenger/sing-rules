@@ -11,16 +11,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2024-06-05 02:12:50
+最后更新时间：2024-06-06 02:12:03
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 447  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 77198  | 
+| DOMAIN-SUFFIX | 77192  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 77672  | 
+| TOTAL | 77666  | 
 
 
 ## 子规则/排除规则
@@ -391,7 +391,6 @@ ChinaMax排除相关IP规则版本
 - https://ruleset.isagood.day/icbc.conf
 - https://ruleset.isagood.day/sina.conf
 - https://ruleset.isagood.day/stream_cn.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

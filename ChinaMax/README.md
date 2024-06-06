@@ -17,19 +17,19 @@
 
 ## 规则统计
 
-最后更新时间：2024-06-05 02:12:30
+最后更新时间：2024-06-06 02:11:43
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 448  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 77527  | 
+| DOMAIN-SUFFIX | 77522  | 
 | IP-ASN | 1  | 
 | IP-CIDR | 8120  | 
-| IP-CIDR6 | 4278  | 
+| IP-CIDR6 | 4319  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 90401  | 
+| TOTAL | 90437  | 
 
 
 ## 子规则/排除规则
@@ -408,7 +408,6 @@
 - https://ruleset.isagood.day/icbc.conf
 - https://ruleset.isagood.day/sina.conf
 - https://ruleset.isagood.day/stream_cn.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 
