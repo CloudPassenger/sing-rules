@@ -17,17 +17,17 @@
 
 ## 规则统计
 
-最后更新时间：2024-06-06 02:09:10
+最后更新时间：2024-06-07 02:09:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 12853  | 
 | DOMAIN-KEYWORD | 283  | 
-| DOMAIN-SUFFIX | 153701  | 
+| DOMAIN-SUFFIX | 153718  | 
 | IP-CIDR | 469  | 
 | IP-CIDR6 | 1  | 
-| TOTAL | 167307  | 
+| TOTAL | 167324  | 
 
 
 ## 子规则/排除规则
@@ -82,6 +82,8 @@
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Reject.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Adblock/Adblock.list
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/AdBlock.list
+- https://ruleset.isagood.day/reject.conf
+- https://ruleset.isagood.day/reject_drop.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list
 
 
