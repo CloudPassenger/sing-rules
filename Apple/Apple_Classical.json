@@ -1557,11 +1557,11 @@
         "applemusic.com",
         "apple-dns.net",
         "apple.news",
+        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com",
-        "cdn-apple.com"
+        "apzones.com"
       ],
       "domain_suffix": [
         ".100beatscheap.com",
@@ -3108,11 +3108,11 @@
         ".applemusic.com",
         ".apple-dns.net",
         ".apple.news",
+        ".cdn-apple.com",
         ".digicert.com",
         ".apple-cloudkit.com",
         ".apple-livephotoskit.com",
-        ".apzones.com",
-        ".cdn-apple.com"
+        ".apzones.com"
       ],
       "domain_keyword": [
         "apple-support.akadns.net",
