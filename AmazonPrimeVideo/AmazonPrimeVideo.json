@@ -25,7 +25,8 @@
         "primevideo.com",
         "primevideo.info",
         "primevideo.org",
-        "primevideo.tv"
+        "primevideo.tv",
+        "pv-cdn.net"
       ],
       "domain_suffix": [
         ".aiv-cdn.net",
@@ -45,7 +46,8 @@
         ".primevideo.com",
         ".primevideo.info",
         ".primevideo.org",
-        ".primevideo.tv"
+        ".primevideo.tv",
+        ".pv-cdn.net"
       ],
       "domain_keyword": "avoddashs"
     },
