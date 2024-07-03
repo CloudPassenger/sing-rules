@@ -1197,6 +1197,7 @@
         "applepaysupplies.tv",
         "applewallet.com",
         "applewallet.tv",
+        "appsto.re",
         "appstore.co.id",
         "appstore.com",
         "appstore.hk",
@@ -1556,12 +1557,11 @@
         "musickit.net",
         "wwwapplemusic.com",
         "apple-dns.net",
-        "appsto.re",
-        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com"
+        "apzones.com",
+        "cdn-apple.com"
       ],
       "domain_suffix": [
         ".100beatscheap.com",
@@ -2748,6 +2748,7 @@
         ".applepaysupplies.tv",
         ".applewallet.com",
         ".applewallet.tv",
+        ".appsto.re",
         ".appstore.co.id",
         ".appstore.com",
         ".appstore.hk",
@@ -3107,12 +3108,11 @@
         ".musickit.net",
         ".wwwapplemusic.com",
         ".apple-dns.net",
-        ".appsto.re",
-        ".cdn-apple.com",
         ".digicert.com",
         ".apple-cloudkit.com",
         ".apple-livephotoskit.com",
-        ".apzones.com"
+        ".apzones.com",
+        ".cdn-apple.com"
       ],
       "domain_keyword": [
         "apple-support.akadns.net",
