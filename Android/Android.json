@@ -2,14 +2,7 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "android.com",
-        "androidify.com"
-      ],
-      "domain_suffix": [
-        ".android.com",
-        ".androidify.com"
-      ]
+      "domain": "aida.googleapis.com"
     }
   ]
 }

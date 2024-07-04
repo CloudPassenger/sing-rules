@@ -7,10 +7,12 @@
         "d31wl6mro6753i.cloudfront.net",
         "static-mycake.pstatic.net",
         "vstatic-mycake.pstatic.net",
+        "cake.day",
         "cakeapp.me",
         "mycake.me"
       ],
       "domain_suffix": [
+        ".cake.day",
         ".cakeapp.me",
         ".mycake.me"
       ]
