@@ -8,7 +8,7 @@ Dropbox规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-06 02:12:02
+最后更新时间：2024-07-07 02:10:53
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -28,7 +28,6 @@ Dropbox规则由《RULE GENERATOR 规则生成器》自动生成。
 
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Dropbox.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Dropbox.yaml
-- https://ruleset.isagood.day/dropbox.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
