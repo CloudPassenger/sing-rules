@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "bytefcdnrd.com",
         "douyu.com",
         "douyu.tv",
         "douyuba.cn",
@@ -12,9 +13,11 @@
         "douyuscdn.com",
         "douyutv.com",
         "doyonoc.com",
+        "edgesrv.com",
         "oywtv.com"
       ],
       "domain_suffix": [
+        ".bytefcdnrd.com",
         ".douyu.com",
         ".douyu.tv",
         ".douyuba.cn",
@@ -24,6 +27,7 @@
         ".douyuscdn.com",
         ".douyutv.com",
         ".doyonoc.com",
+        ".edgesrv.com",
         ".oywtv.com"
       ]
     }
