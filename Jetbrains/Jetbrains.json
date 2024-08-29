@@ -10,8 +10,10 @@
         "intellij.org",
         "jetbrains.com",
         "jetbrains.net",
+        "jetbrains.org",
         "jetbrains.space",
         "jetbrains.team",
+        "kotlinconf.com",
         "kotlinlang.org"
       ],
       "domain_suffix": [
@@ -22,8 +24,10 @@
         ".intellij.org",
         ".jetbrains.com",
         ".jetbrains.net",
+        ".jetbrains.org",
         ".jetbrains.space",
         ".jetbrains.team",
+        ".kotlinconf.com",
         ".kotlinlang.org"
       ]
     }
