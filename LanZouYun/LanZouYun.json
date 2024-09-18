@@ -4,9 +4,13 @@
     {
       "domain": [
         "baidupan.com",
+        "bakstotre.com",
         "ilanzou.com",
         "lanosso.com",
+        "lanpv.com",
+        "lanpw.com",
         "lanrar.com",
+        "lanzn.com",
         "lanzou.com",
         "lanzoub.com",
         "lanzouc.com",
@@ -30,14 +34,21 @@
         "lanzoux.com",
         "lanzouy.com",
         "lanzov.com",
+        "lanzv.com",
+        "ulanzou.com",
+        "webgetstore.com",
         "woozooo.com",
         "wwentua.com"
       ],
       "domain_suffix": [
         ".baidupan.com",
+        ".bakstotre.com",
         ".ilanzou.com",
         ".lanosso.com",
+        ".lanpv.com",
+        ".lanpw.com",
         ".lanrar.com",
+        ".lanzn.com",
         ".lanzou.com",
         ".lanzoub.com",
         ".lanzouc.com",
@@ -61,6 +72,9 @@
         ".lanzoux.com",
         ".lanzouy.com",
         ".lanzov.com",
+        ".lanzv.com",
+        ".ulanzou.com",
+        ".webgetstore.com",
         ".woozooo.com",
         ".wwentua.com"
       ]
