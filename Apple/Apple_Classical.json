@@ -1519,7 +1519,6 @@
         "wwwipodlounge.com",
         "wwwmacbookair.com",
         "apple.comscoreresearch.com",
-        "apple.news",
         "appleenews.com",
         "applemusic.berlin",
         "applemusic.co",
@@ -1557,11 +1556,12 @@
         "wwwapplemusic.com",
         "applemusic.com",
         "apple-dns.net",
-        "cdn-apple.com",
+        "apple.news",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com"
+        "apzones.com",
+        "cdn-apple.com"
       ],
       "domain_suffix": [
         ".100beatscheap.com",
@@ -3070,7 +3070,6 @@
         ".wwwipodlounge.com",
         ".wwwmacbookair.com",
         ".apple.comscoreresearch.com",
-        ".apple.news",
         ".appleenews.com",
         ".applemusic.berlin",
         ".applemusic.co",
@@ -3108,11 +3107,12 @@
         ".wwwapplemusic.com",
         ".applemusic.com",
         ".apple-dns.net",
-        ".cdn-apple.com",
+        ".apple.news",
         ".digicert.com",
         ".apple-cloudkit.com",
         ".apple-livephotoskit.com",
-        ".apzones.com"
+        ".apzones.com",
+        ".cdn-apple.com"
       ],
       "domain_keyword": [
         "apple-support.akadns.net",
