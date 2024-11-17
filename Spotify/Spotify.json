@@ -50,10 +50,7 @@
         ".spotilocal.com",
         ".tospotify.com"
       ],
-      "domain_keyword": [
-        "-spotify-",
-        "spotify.com"
-      ],
+      "domain_keyword": "spotify",
       "ip_cidr": [
         "104.154.127.126/32",
         "35.186.224.47/32"
