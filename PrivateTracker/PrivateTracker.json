@@ -6,6 +6,7 @@
         "0123456789nonexistent.com",
         "0d.kebhana.mx",
         "1337.abcvg.info",
+        "7p41a8967.wicp.vip",
         "aegir.sexy",
         "amigacity.xyz",
         "api.ipv4online.uk",
@@ -38,6 +39,7 @@
         "leet-tracker.moe",
         "martin-gebhardt.eu",
         "mathkangaroo.jp",
+        "ns-1.x-fins.com",
         "ns1.monolithindustries.com",
         "nyaa.tracker.wf",
         "odd-hd.fr",
@@ -55,6 +57,7 @@
         "p4p.arenabg.com",
         "public.tracker.vraphim.com",
         "pybittrack.retiolus.net",
+        "retracker.hotplug.ru",
         "retracker.lanta.me",
         "retracker.spark-rostov.ru",
         "retracker01-msk-virt.corbina.net",
@@ -76,7 +79,6 @@
         "tk1.trackerservers.com",
         "tk2v6.trackerservers.com",
         "torrentsmd.com",
-        "tr.abir.ga",
         "tr.burnabyhighstar.com",
         "tr.kxmp.cf",
         "tr.nyacat.pw",
@@ -87,6 +89,7 @@
         "tracker-udp.gbitt.info",
         "tracker-zhuqiy.dgj055.icu",
         "tracker.0x7c0.com",
+        "tracker.beeimg.com",
         "tracker.bittor.pw",
         "tracker.bjut.jp",
         "tracker.breizh.pm",
@@ -95,6 +98,7 @@
         "tracker.bz",
         "tracker.cloudit.top",
         "tracker.corpscorp.online",
+        "tracker.cyberia.is",
         "tracker.darkness.services",
         "tracker.deadorbit.nl",
         "tracker.dler.com",
@@ -115,6 +119,7 @@
         "tracker.leechshield.link",
         "tracker.lilithraws.org",
         "tracker.lintk.me",
+        "tracker.moeking.me",
         "tracker.moxing.party",
         "tracker.mywaifu.best",
         "tracker.ololosh.space",
@@ -135,6 +140,7 @@
         "tracker.torrust-demo.com",
         "tracker.tryhackx.org",
         "tracker.vanitycore.co",
+        "tracker.vraphim.com",
         "tracker.waaa.moe",
         "tracker.xiaoduola.xyz",
         "tracker.yemekyedim.com",
@@ -414,6 +420,11 @@
         "chdbits",
         "m-team",
         "torrent"
+      ],
+      "ip_cidr": [
+        "207.241.226.111/32",
+        "207.241.231.226/32",
+        "52.58.128.163/32"
       ]
     }
   ]
