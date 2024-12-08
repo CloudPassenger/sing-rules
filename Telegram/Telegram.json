@@ -70,7 +70,8 @@
         "nekox.messenger",
         "org.telegram.messenger",
         "telegram-desktop",
-        "tw.nekomimi.nekogram"
+        "tw.nekomimi.nekogram",
+        "xyz.nextalone.nagram"
       ]
     }
   ]
