@@ -1523,6 +1523,7 @@
         "appleenews.com",
         "applemusic.berlin",
         "applemusic.co",
+        "applemusic.com",
         "applemusic.com.au",
         "applemusic.hamburg",
         "applemusic.wang",
@@ -1555,13 +1556,12 @@
         "iphoto.wang",
         "musickit.net",
         "wwwapplemusic.com",
-        "applemusic.com",
         "apple-dns.net",
+        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
-        "apzones.com",
-        "cdn-apple.com"
+        "apzones.com"
       ],
       "domain_suffix": [
         ".100beatscheap.com",
@@ -3074,6 +3074,7 @@
         ".appleenews.com",
         ".applemusic.berlin",
         ".applemusic.co",
+        ".applemusic.com",
         ".applemusic.com.au",
         ".applemusic.hamburg",
         ".applemusic.wang",
@@ -3106,13 +3107,12 @@
         ".iphoto.wang",
         ".musickit.net",
         ".wwwapplemusic.com",
-        ".applemusic.com",
         ".apple-dns.net",
+        ".cdn-apple.com",
         ".digicert.com",
         ".apple-cloudkit.com",
         ".apple-livephotoskit.com",
-        ".apzones.com",
-        ".cdn-apple.com"
+        ".apzones.com"
       ],
       "domain_keyword": [
         "apple-support.akadns.net",
