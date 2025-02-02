@@ -11,7 +11,7 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2025-01-28 02:15:22
+最后更新时间：2025-02-02 02:13:37
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -384,6 +384,9 @@ ChinaMax排除相关IP规则版本
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BesTV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CETV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
+- https://ruleset.isagood.day/alibaba.conf
+- https://ruleset.isagood.day/alibaba_domain.conf
+- https://ruleset.isagood.day/bilibili.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 
