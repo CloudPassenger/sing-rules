@@ -17,19 +17,19 @@
 
 ## 规则统计
 
-最后更新时间：2025-03-13 02:14:52
+最后更新时间：2025-03-14 02:14:44
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 404  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 95956  | 
+| DOMAIN-SUFFIX | 95929  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8332  | 
-| IP-CIDR6 | 12204  | 
+| IP-CIDR | 8370  | 
+| IP-CIDR6 | 12206  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 116924  | 
+| TOTAL | 116937  | 
 
 
 ## 子规则/排除规则
@@ -401,7 +401,6 @@
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/BesTV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CETV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 
