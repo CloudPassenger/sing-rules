@@ -8,7 +8,7 @@ Scholar规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-11-29 02:12:59
+最后更新时间：2025-03-16 02:12:33
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -32,6 +32,7 @@ Scholar规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Scholar.yaml
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Scholar.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml
+- https://ruleset.isagood.day/scholar.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
