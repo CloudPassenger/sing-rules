@@ -17,7 +17,7 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-03-20 02:13:38
+最后更新时间：2025-03-21 02:13:30
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -62,6 +62,7 @@ Global规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+- https://ruleset.isagood.day/global.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
