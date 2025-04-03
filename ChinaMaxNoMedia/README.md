@@ -8,7 +8,7 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-02 02:15:39
+最后更新时间：2025-04-03 02:16:01
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -17,10 +17,10 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 | DOMAIN-KEYWORD | 11  | 
 | DOMAIN-SUFFIX | 104820  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8308  | 
+| IP-CIDR | 8309  | 
 | IP-CIDR6 | 12240  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 125668  | 
+| TOTAL | 125669  | 
 
 
 ## 子规则/排除规则
@@ -391,9 +391,6 @@ ChinaMaxNoMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
 - https://ruleset.isagood.day/alibaba.conf
 - https://ruleset.isagood.day/bilibili.conf
-- https://ruleset.isagood.day/icbc.conf
-- https://ruleset.isagood.day/sina.conf
-- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 

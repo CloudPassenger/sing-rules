@@ -8,7 +8,7 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-02 02:11:30
+最后更新时间：2025-04-03 02:11:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -57,7 +57,6 @@ Apple规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleNews.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml
 - https://ruleset.isagood.day/apple_cdn_domain.conf
-- https://ruleset.isagood.day/apple_services.conf
 - https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleAPIRules.conf
 - https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleNoChinaCDNRules.conf
 - https://raw.githubusercontent.com/Elysian-Realme/FuGfConfig/main/ConfigFile/QuantumultX/Apple/AppleCDNRules.conf
