@@ -11,7 +11,7 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-05 02:13:33
+最后更新时间：2025-04-06 02:12:46
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -35,7 +35,6 @@
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PublicDirectCDN.list
-- https://ruleset.isagood.day/direct.conf
 - https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliuxiuzheng.list
 
 

@@ -11,16 +11,16 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2025-04-05 02:15:19
+最后更新时间：2025-04-06 02:14:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 278  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 106055  | 
+| DOMAIN-SUFFIX | 105982  | 
 | PROCESS-NAME | 14  | 
-| TOTAL | 106360  | 
+| TOTAL | 106287  | 
 
 
 ## 子规则/排除规则
@@ -385,8 +385,7 @@ ChinaMax排除相关IP规则版本
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/CETV.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/SMG.list
 - https://ruleset.isagood.day/bilibili.conf
-- https://ruleset.isagood.day/icbc.conf
-- https://ruleset.isagood.day/stream_cn.conf
+- https://ruleset.isagood.day/wechat.conf
 - https://raw.githubusercontent.com/missuo/ASN-China/main/IP.China.list
 
 
