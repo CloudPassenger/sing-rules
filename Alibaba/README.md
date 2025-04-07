@@ -8,7 +8,7 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-05 02:14:01
+最后更新时间：2025-04-07 02:13:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -32,6 +32,8 @@
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/Alibaba.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Alibaba.yaml
+- https://ruleset.isagood.day/alibaba.conf
+- https://ruleset.isagood.day/alibaba_domain.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
