@@ -8,7 +8,7 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-07 02:12:56
+最后更新时间：2025-04-08 02:15:11
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -49,6 +49,7 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/GMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTubeMusic.yaml
 - https://ruleset.isagood.day/stream.conf
+- https://ruleset.isagood.day/youtube_all.conf
 - https://ruleset.isagood.day/youtube_music.conf
 
 

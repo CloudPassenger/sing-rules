@@ -11,7 +11,7 @@
 
 ## 规则统计
 
-最后更新时间：2025-04-06 02:10:55
+最后更新时间：2025-04-08 02:13:31
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -73,7 +73,6 @@
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Nintendo.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-- https://ruleset.isagood.day/global_game.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
