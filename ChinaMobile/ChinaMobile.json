@@ -76,7 +76,7 @@
         ".warmchina121.com",
         ".zdsdp.com"
       ],
-      "ip_cidr": "117.161.2.5"
+      "ip_cidr": "117.161.2.5/32"
     }
   ]
 }
