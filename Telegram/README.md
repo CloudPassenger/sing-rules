@@ -8,7 +8,7 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:16:54
+最后更新时间：2025-07-28 02:07:59
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -41,7 +41,6 @@ Telegram规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/telegramcidr.txt
 - https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/SNS/Telegram.list
-- https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Telegram.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
 - https://core.telegram.org/resources/cidr.txt
 - https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Telegram.yaml
