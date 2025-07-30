@@ -15,14 +15,14 @@ ChinaIPsTest规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-07-28 02:09:40
+最后更新时间：2025-07-30 02:09:58
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| IP-CIDR | 18435  | 
-| IP-CIDR6 | 13630  | 
-| TOTAL | 32065  | 
+| IP-CIDR | 18171  | 
+| IP-CIDR6 | 13551  | 
+| TOTAL | 31722  | 
 
 
 ## 子规则/排除规则
@@ -51,7 +51,6 @@ ChinaIPsTest规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cmcc.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cmcc6.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cstnet.txt
-- https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/cstnet6.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/drpeng.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/drpeng6.txt
 - https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/tietong.txt

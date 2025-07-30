@@ -8,7 +8,7 @@ Download规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-06-06 09:17:01
+最后更新时间：2025-07-30 02:08:24
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -32,7 +32,6 @@ Download规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/Special/Download.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list
-- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Download.yaml
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
