@@ -11,7 +11,7 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-07-30 02:06:30
+最后更新时间：2025-08-01 02:06:18
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -47,6 +47,7 @@ Google规则由《RULE GENERATOR 规则生成器》自动生成。
 - https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Services/Google.list
 - https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Google.list
 - https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt
+- https://raw.githubusercontent.com/LM-Firefly/Rules/master/Clash-RuleSet-Classical/PROXY/Google.yaml
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml
 
