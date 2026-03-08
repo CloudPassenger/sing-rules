@@ -1557,11 +1557,11 @@
         "musickit.net",
         "wwwapplemusic.com",
         "apple-dns.net",
+        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
         "apzones.com",
-        "cdn-apple.com",
         "icloud.cn"
       ],
       "domain_suffix": [
@@ -3110,11 +3110,11 @@
         ".musickit.net",
         ".wwwapplemusic.com",
         ".apple-dns.net",
+        ".cdn-apple.com",
         ".digicert.com",
         ".apple-cloudkit.com",
         ".apple-livephotoskit.com",
         ".apzones.com",
-        ".cdn-apple.com",
         ".icloud.cn"
       ],
       "domain_keyword": [
