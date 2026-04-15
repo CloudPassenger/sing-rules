@@ -34,7 +34,7 @@ jobs:
           ref: master
           path: source
           fetch-depth: 1
-      - name: Download latest sing-rules-converter
+      - name: Download Latest sing-srs-converter
         run: |
           set -euo pipefail
 
@@ -42,7 +42,7 @@ jobs:
           import json
           import urllib.request
 
-          api_url = "https://api.github.com/repos/solanab/sing-rules-converter/releases/latest"
+          api_url = "https://api.github.com/repos/PuerNya/sing-srs-converter/releases/latest"
 
           with urllib.request.urlopen(api_url) as response:
               release = json.load(response)
@@ -53,12 +53,12 @@ jobs:
                   print(asset_url)
                   break
           else:
-              raise SystemExit("Could not locate a linux-x86_64 sing-rules-converter asset")
+              raise SystemExit("Could not locate a linux-x86_64 sing-srs-converter asset")
           PY
           )"
 
-          curl --fail --silent --show-error --location --output "sing-rules-converter" "${download_url}"
-          chmod +x "sing-rules-converter"
+          curl --fail --silent --show-error --location --output "sing-srs-converter" "${download_url}"
+          chmod +x "sing-srs-converter"
       - name: Build rulesets
         run: |
           set -euo pipefail
