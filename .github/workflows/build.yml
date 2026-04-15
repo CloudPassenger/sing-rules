@@ -10,24 +10,27 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - name: Checkout last rules
         continue-on-error: true
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ruleset
           path: dist
           fetch-depth: 0
       - name: Checkout rules source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: blackmatrix7/ios_rule_script
           ref: master
@@ -35,35 +38,64 @@ jobs:
           fetch-depth: 1
       - name: Download Latest sing-srs-converter
         run: |
-          github_api="https://api.github.com/repos/PuerNya/sing-srs-converter/releases/latest"
-          download_url="$(curl -s ${github_api} | grep "browser_download_url" | grep -oE "https:\/\/.*\/sing-srs-converter.*-linux-x86_64" | head -n 1)"
-          curl -L -o sing-srs-converter ${download_url}
-          chmod +x sing-srs-converter
+          set -euo pipefail
+
+          download_url="$(python3 - <<'PY'
+          import json
+          import urllib.request
+
+          api_url = "https://api.github.com/repos/PuerNya/sing-srs-converter/releases/latest"
+
+          with urllib.request.urlopen(api_url) as response:
+              release = json.load(response)
+
+          for asset in release.get("assets", []):
+              asset_url = asset.get("browser_download_url", "")
+              if asset_url.endswith("-linux-x86_64"):
+                  print(asset_url)
+                  break
+          else:
+              raise SystemExit("Could not locate a linux-x86_64 sing-srs-converter asset")
+          PY
+          )"
+
+          curl --fail --silent --show-error --location --output "sing-srs-converter" "${download_url}"
+          chmod +x "sing-srs-converter"
       - name: Build rulesets
         run: |
-          mkdir -p dist
-          chmod +x bm7_converter.sh
-          ./bm7_converter.sh ./source/rule/Clash ./dist
+          set -euo pipefail
+
+          mkdir -p "dist"
+          chmod +x "bm7_converter.sh"
+          ./bm7_converter.sh "./source/rule/Clash" "./dist"
       - name: Git push assets to "ruleset" branch
         run: |
-          cd dist || exit 1
+          set -euo pipefail
+
+          cd "dist"
+
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
           if [ ! -d .git ]; then
-            git init
-            git branch -m ruleset
+            git init --initial-branch=ruleset
           fi
-          git add -A
+
+          git add --all
+
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
           fi
+
           git commit -m "⏲️ Sync ruleset $(TZ='UTC' date "+@ UTC %Y%m%d-%H%M%S")"
-          git remote add ruleset "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -u ruleset ruleset
-      # - name: Purge jsdelivr CDN
-      #   run: |
-      #     cd dist || exit 1
-      #     for file in $(ls); do
+
+          git remote remove ruleset 2>/dev/null || true
+          git remote add ruleset "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
+          git push --set-upstream ruleset ruleset
+       # - name: Purge jsdelivr CDN
+       #   run: |
+       #     cd dist || exit 1
+       #     for file in $(ls); do
       #       curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@ruleset/${file}"
       #     done
